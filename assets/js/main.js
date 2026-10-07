@@ -144,10 +144,10 @@
       f.addEventListener("submit", function (e) {
         e.preventDefault();
         var body = new URLSearchParams(new FormData(f)).toString();
-        fetch("/", { method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        fetch(f.action, { method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json" },
           body: body })
-        .then(function () {
+        .then(function (r) { if (!r.ok) throw new Error("send failed");
           f.style.display = "none";
           var thanks = f.parentElement.querySelector(".nl-thanks, .form-thanks");
           if (thanks) thanks.style.display = "block";
