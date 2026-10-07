@@ -415,6 +415,114 @@
     shell.innerHTML = html;
   }
 
+  /* ---------- cost calculator: AI Tool Cost Calculator ---------- */
+  function initCostCalc(root) {
+    var wrap = document.getElementById("calc-tools");
+    if (!wrap) return;
+    var checks = Array.prototype.slice.call(wrap.querySelectorAll(".calc-check"));
+    var bar = document.getElementById("calc-bar");
+    var advisor = document.getElementById("calc-advisor");
+    var empty = document.getElementById("calc-empty");
+    var share = document.getElementById("calc-share");
+    var clearBtn = document.getElementById("calc-clear");
+    function money(v) { return "$" + (Math.round(v * 100) / 100).toLocaleString("en-US"); }
+    function priceOf(t) {
+      var m = /\$\s?(\d+(?:\.\d+)?)/.exec(t.price_note || "");
+      return m ? parseFloat(m[1]) : null;
+    }
+    function ticked() {
+      return checks.filter(function (c) { return c.checked; }).map(function (c) {
+        return { slug: c.getAttribute("data-slug"), name: c.getAttribute("data-name"),
+                 price: parseFloat(c.getAttribute("data-price")),
+                 cat: c.getAttribute("data-cat"), catName: c.getAttribute("data-catname"),
+                 rating: parseFloat(c.getAttribute("data-rating")) };
+      });
+    }
+    function render() {
+      var sel = ticked();
+      var monthly = sel.reduce(function (s, t) { return s + t.price; }, 0);
+      var yearly = monthly * 12;
+      document.getElementById("calc-monthly").textContent = money(monthly);
+      document.getElementById("calc-yearly").textContent = money(yearly);
+      document.getElementById("calc-count").textContent = sel.length;
+      document.getElementById("calc-bar-monthly").textContent = money(monthly) + "/mo";
+      document.getElementById("calc-bar-yearly").textContent = money(yearly) + "/yr";
+      document.getElementById("calc-bar-count").textContent = sel.length + (sel.length === 1 ? " tool" : " tools");
+      var on = sel.length > 0;
+      bar.hidden = !on;
+      document.body.classList.toggle("calc-bar-on", on);
+      empty.hidden = on;
+      share.hidden = !on;
+      if (on) {
+        var line = "I'm spending " + money(monthly) + "/month on AI tools";
+        document.getElementById("calc-share-line").textContent = line;
+        document.getElementById("calc-x").href = "https://twitter.com/intent/tweet?text=" +
+          encodeURIComponent(line + " 💸 How much are you spending? Free calculator: https://grabaitool.github.io/ai-cost-calculator/");
+      }
+      var byCat = {};
+      sel.forEach(function (t) { (byCat[t.cat] = byCat[t.cat] || []).push(t); });
+      var notes = [];
+      Object.keys(byCat).forEach(function (cat) {
+        var list = byCat[cat];
+        if (list.length < 2) return;
+        var keep = list.slice().sort(function (a, b) { return b.rating - a.rating; })[0];
+        var drop = list.filter(function (t) { return t.slug !== keep.slug; });
+        var save = drop.reduce(function (s, t) { return s + t.price; }, 0);
+        var html = '<div class="calc-advice"><h3>⚠️ Overlap in ' + esc(keep.catName) + "</h3>" +
+          "<p>You&rsquo;re paying for " + list.length + " tools in " + esc(keep.catName) + " (" +
+          list.map(function (t) { return esc(t.name); }).join(", ") +
+          ") — most people only need one in this category. The highest-rated of the ones you ticked is " +
+          '<a href="' + root + "tools/" + esc(keep.slug) + '.html">' + esc(keep.name) + "</a> (rated " +
+          keep.rating.toFixed(1) + "/5 by our editors). Dropping the rest could save you up to <strong>" +
+          money(save) + "/mo</strong>.</p>";
+        if (typeof TOOLS !== "undefined") {
+          var minTicked = Math.min.apply(null, list.map(function (x) { return x.price; }));
+          var alts = TOOLS.filter(function (t) {
+            if (t.category_slug !== cat) return false;
+            if (sel.some(function (s) { return s.slug === t.slug; })) return false;
+            var p = priceOf(t);
+            return p !== null && p < minTicked;
+          }).sort(function (a, b) { return b.editorial_rating - a.editorial_rating; }).slice(0, 2);
+          if (alts.length) {
+            html += "<p>Cheaper alternatives from our listings: " + alts.map(function (t) {
+              return '<a href="' + root + "tools/" + esc(t.slug) + '.html">' + esc(t.name) +
+                "</a> (~" + money(priceOf(t)) + "/mo, rated " + t.editorial_rating.toFixed(1) + "/5)";
+            }).join(" · ") + "</p>";
+          }
+        }
+        html += "</div>";
+        notes.push(html);
+      });
+      advisor.innerHTML = notes.join("");
+    }
+    checks.forEach(function (c) { c.addEventListener("change", render); });
+    if (clearBtn) clearBtn.addEventListener("click", function () {
+      checks.forEach(function (c) { c.checked = false; });
+      render();
+    });
+    var copyBtn = document.getElementById("calc-copy");
+    if (copyBtn) copyBtn.addEventListener("click", function () {
+      var line = document.getElementById("calc-share-line").textContent +
+        " — via the AI Tool Cost Calculator: https://grabaitool.github.io/ai-cost-calculator/";
+      function done() {
+        copyBtn.textContent = "Copied ✓";
+        setTimeout(function () { copyBtn.textContent = "Copy my result"; }, 2000);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(line).then(done, done);
+      } else {
+        var ta = document.createElement("textarea");
+        ta.value = line;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand("copy"); } catch (err) { /* clipboard unavailable */ }
+        document.body.removeChild(ta);
+        done();
+      }
+    });
+    render();
+  }
+
   /* ---------- mobile nav toggle ---------- */
   function initMobileNav() {
     var btn = document.getElementById("nav-toggle");
@@ -446,6 +554,7 @@
     initCompare(root);
     initQuiz(root);
     initComparePage(root);
+    initCostCalc(root);
   });
 
   window.__tp = { toolCard: toolCard, starText: starText, esc: esc };
