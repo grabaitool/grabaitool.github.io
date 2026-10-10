@@ -2,7 +2,7 @@
 
 > Grab AI Tool tracks, tests, and rates the best AI tools for writing, images, video, audio, code, design, marketing, and business — with honest, hands-on ratings so you can choose with confidence.
 
-Grab AI Tool is an independent AI tools directory at https://grabaitool.github.io/. It lists 59 expert-reviewed tools across 10 categories, with pricing, features, pros and cons, and editorial ratings. Free to browse; no account required.
+Grab AI Tool is an independent AI tools directory at https://grabaitool.github.io/. It lists 61 expert-reviewed tools across 10 categories, with pricing, features, pros and cons, and editorial ratings. Free to browse; no account required.
 
 ## Key pages
 
@@ -21,13 +21,13 @@ Grab AI Tool is an independent AI tools directory at https://grabaitool.github.i
 
 - [AI Writing Tools](https://grabaitool.github.io/categories/ai-writing-tools.html): 5 tools — top rated: Grammarly, Jasper, Notion AI. AI writing assistants that help you draft, edit, and polish blog posts, marketing copy, emails, and documents in a fraction of the time it takes to write from scratch.
 - [AI Image Generators](https://grabaitool.github.io/categories/ai-image-generators.html): 5 tools — top rated: Midjourney, DALL-E 3, Adobe Firefly. Text-to-image tools that turn written prompts into artwork, photos, illustrations, and graphics — no design skills required.
-- [AI Video Tools](https://grabaitool.github.io/categories/ai-video-tools.html): 6 tools — top rated: Descript, Runway, Synthesia. AI video makers that generate, edit, caption, and voice videos from text — built for creators, marketers, and teams shipping video fast.
+- [AI Video Tools](https://grabaitool.github.io/categories/ai-video-tools.html): 7 tools — top rated: Descript, Runway, Synthesia. AI video makers that generate, edit, caption, and voice videos from text — built for creators, marketers, and teams shipping video fast.
 - [AI Audio Tools](https://grabaitool.github.io/categories/ai-audio-tools.html): 6 tools — top rated: ElevenLabs, Speechify, Murf. AI voice and audio tools for lifelike narration, voice cloning, transcription, and studio-quality sound without a studio.
 - [AI Productivity](https://grabaitool.github.io/categories/ai-productivity.html): 9 tools — top rated: Otter.ai, Fireflies.ai, Reclaim AI. AI assistants that manage your calendar, notes, and meetings, and surface what matters — so you can focus on real work.
 - [AI Chatbots](https://grabaitool.github.io/categories/ai-chatbots.html): 6 tools — top rated: ChatGPT, Claude, Gemini. Conversational AI assistants that answer questions, draft text, write code, and reason through problems — the front door to AI for most people.
 - [AI Code Tools](https://grabaitool.github.io/categories/ai-code-tools.html): 5 tools — top rated: GitHub Copilot, Cursor, Replit. AI coding assistants that autocomplete, explain, and debug code right inside your editor — a pair programmer that never sleeps.
 - [AI Design Tools](https://grabaitool.github.io/categories/ai-design-tools.html): 5 tools — top rated: Figma, Canva, Uizard. AI-powered design tools for graphics, interfaces, logos, and color — from quick mockups to finished, share-ready work.
-- [AI Marketing Tools](https://grabaitool.github.io/categories/ai-marketing-tools.html): 6 tools — top rated: HubSpot AI, Surfer SEO, Phrasee. AI tools for SEO, ad creatives, and marketing copy that help teams research, launch, and optimize campaigns faster.
+- [AI Marketing Tools](https://grabaitool.github.io/categories/ai-marketing-tools.html): 7 tools — top rated: HubSpot AI, Surfer SEO, Phrasee. AI tools for SEO, ad creatives, and marketing copy that help teams research, launch, and optimize campaigns faster.
 - [AI Business Tools](https://grabaitool.github.io/categories/ai-business-tools.html): 6 tools — top rated: Zapier, Gong, Intercom. AI platforms that automate workflows, support customers, and turn sales conversations into insight your whole team can use.
 
 ## Top-rated tools
