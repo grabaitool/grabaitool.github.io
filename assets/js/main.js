@@ -457,7 +457,7 @@
         var line = "I'm spending " + money(monthly) + "/month on AI tools";
         document.getElementById("calc-share-line").textContent = line;
         document.getElementById("calc-x").href = "https://twitter.com/intent/tweet?text=" +
-          encodeURIComponent(line + " 💸 How much are you spending? Free calculator: https://grabaitool.github.io/ai-cost-calculator/");
+          encodeURIComponent(line + " 💸 How much are you spending? Free calculator: https://grabaitool.com/ai-cost-calculator/");
       }
       var byCat = {};
       sel.forEach(function (t) { (byCat[t.cat] = byCat[t.cat] || []).push(t); });
@@ -503,7 +503,7 @@
     var copyBtn = document.getElementById("calc-copy");
     if (copyBtn) copyBtn.addEventListener("click", function () {
       var line = document.getElementById("calc-share-line").textContent +
-        " — via the AI Tool Cost Calculator: https://grabaitool.github.io/ai-cost-calculator/";
+        " — via the AI Tool Cost Calculator: https://grabaitool.com/ai-cost-calculator/";
       function done() {
         copyBtn.textContent = "Copied ✓";
         setTimeout(function () { copyBtn.textContent = "Copy my result"; }, 2000);
