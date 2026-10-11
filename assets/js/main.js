@@ -9,7 +9,15 @@
     return s;
   }
 
-  function badgeClass(model) {
+  
+    function ctaHtml(t) {
+      var free = t.pricing_model === "Free" || t.pricing_model === "Freemium";
+      var label = free ? "Try it Free \u2192" : "Visit Site";
+      var cls = free ? "btn btn-primary btn-sm" : "btn btn-outline btn-sm";
+      return '<a class="' + cls + '" href="' + esc(t.official_url) + '" target="_blank" rel="noopener sponsored">' + label + "</a>";
+    }
+
+    function badgeClass(model) {
     model = (model || "").toLowerCase();
     if (model === "free") return "badge free";
     if (model === "paid") return "badge paid";
@@ -50,7 +58,7 @@
       '<div class="tc-actions">' +
       '<button class="cmp-toggle" data-cmp="' + esc(t.slug) + '" aria-label="Add ' + esc(t.name) + ' to compare">＋ Compare</button>' +
       '<a class="tc-review" href="' + root + "tools/" + esc(t.slug) + '.html">Review \u2192</a>' +
-      '<a class="btn btn-outline btn-sm" href="' + esc(t.official_url) + '" target="_blank" rel="noopener sponsored">Visit Site</a>' +
+      ctaHtml(t) +
       "</div></div>" +
       "</article>"
     );
@@ -311,7 +319,7 @@
         '<p class="quiz-why"><strong>Why it matches:</strong> ' + reason + "</p>" +
         '<div class="tc-foot"><div class="stars">' + starText(t.editorial_rating) + "<span>" + t.editorial_rating.toFixed(1) + "</span></div>" +
         '<div class="tc-actions"><a class="tc-review" href="' + root + "tools/" + esc(t.slug) + '.html">Review \u2192</a>' +
-        '<a class="btn btn-outline btn-sm" href="' + esc(t.official_url) + '" target="_blank" rel="noopener sponsored">Visit Site</a>' +
+        ctaHtml(t) +
         "</div></div></article>";
     }
     function finish() {
