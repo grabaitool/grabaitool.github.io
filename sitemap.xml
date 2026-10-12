@@ -68,7 +68,9 @@
   <url><loc>https://grabaitool.com/tools/midjourney.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/motion.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/murf.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/myndlab.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/notion-ai.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/openai-decisions-api.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/openpilot.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/operato-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/otter-ai.html</loc><priority>0.8</priority></url>
@@ -84,6 +86,7 @@
   <url><loc>https://grabaitool.com/tools/speechify.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/spotscribe.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/stable-diffusion.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/suno-speech.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/surfer-seo.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/synthesia.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/synthid-detector.html</loc><priority>0.8</priority></url>
