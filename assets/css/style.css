@@ -21,7 +21,7 @@ img{max-width:100%}
 a{color:var(--blue-600);text-decoration:none}
 a:hover{text-decoration:underline}
 h1,h2,h3,h4{font-family:var(--font-head);color:var(--ink);line-height:1.15;letter-spacing:-.03em}
-.container{max-width:1180px;margin:0 auto;padding:0 22px}
+.container{max-width:1360px;margin:0 auto;padding:0 22px}
 section{padding:56px 0}
 
 /* ---------- header ---------- */
@@ -349,6 +349,25 @@ img.cat-cover-img{height:110px;width:100%;object-fit:cover;display:block}
 .main-nav a::after{content:"";position:absolute;left:0;bottom:0;height:2.5px;width:0;border-radius:2px;background:linear-gradient(90deg,var(--blue-600),var(--violet-600));transition:width .2s ease}
 .main-nav a:hover::after{width:100%}
 .header-right{gap:16px}
+
+/* ---------- desktop nav dropdowns (hover mega-menus; desktop only — main-nav hides on mobile) ---------- */
+.nav-item{position:relative}
+.nav-link{display:inline-flex;align-items:center;gap:6px}
+.nav-caret{transition:transform .18s;flex-shrink:0}
+.nav-item:hover .nav-caret{transform:rotate(180deg)}
+.dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(10px);min-width:290px;max-width:360px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 60px rgba(15,23,42,.16);padding:10px;opacity:0;visibility:hidden;transition:opacity .18s,transform .18s,visibility .18s;z-index:70}
+.dropdown::before{content:"";position:absolute;top:-14px;left:0;right:0;height:14px}
+.nav-item:hover .dropdown,.nav-item:focus-within .dropdown{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+.dd-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:8px 12px 6px}
+.dropdown a{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;font-size:14px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--ink);white-space:nowrap}
+.dropdown a:hover{background:#f1f5ff;color:var(--blue-700);text-decoration:none}
+.dropdown a::after{display:none}
+.dd-tool{flex:1;overflow:hidden;text-overflow:ellipsis}
+.dd-cat{font-size:12px;color:var(--muted);font-weight:500;flex-shrink:0}
+.dd-rate{font-size:12.5px;color:#b45309;font-weight:700;flex-shrink:0}
+.dd-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.dd-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.dd-all{justify-content:center;font-weight:800;color:var(--blue-700);border-top:1px solid var(--line);margin-top:6px;border-radius:0 0 10px 10px}
 
 /* ---------- split hero ---------- */
 .hero-split{padding:64px 0 36px;background:linear-gradient(180deg,#f4f7ff 0%,#ffffff 78%);overflow:hidden}
