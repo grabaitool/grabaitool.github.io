@@ -21,7 +21,7 @@ img{max-width:100%}
 a{color:var(--blue-600);text-decoration:none}
 a:hover{text-decoration:underline}
 h1,h2,h3,h4{font-family:var(--font-head);color:var(--ink);line-height:1.15;letter-spacing:-.03em}
-.container{max-width:1360px;margin:0 auto;padding:0 22px}
+.container{max-width:1180px;margin:0 auto;padding:0 22px}
 section{padding:56px 0}
 
 /* ---------- header ---------- */
