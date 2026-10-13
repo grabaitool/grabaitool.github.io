@@ -668,3 +668,11 @@ body.calc-bar-on{padding-bottom:92px}
   .calc-cta-card{padding:24px 22px}
   .calc-cta-card h2{font-size:22px}
 }
+/* Founder block (About page) */
+.founder-block{display:flex;gap:18px;align-items:center;margin:4px 0 6px}
+.founder-photo{flex:0 0 auto;width:120px;height:120px;border-radius:50%;object-fit:cover}
+.founder-block p{margin:0}
+@media (max-width:640px){
+  .founder-block{gap:14px}
+  .founder-photo{width:96px;height:96px}
+}
