@@ -574,6 +574,7 @@ img.cat-cover-img{height:110px;width:100%;object-fit:cover;display:block}
   .footer-brand{max-width:100%}
 }
 
+.header-right .btn{white-space:nowrap;flex:none}
 /* ---------- mobile header + hero CTA alignment ---------- */
 @media(max-width:600px){
   .header-right{gap:8px}
