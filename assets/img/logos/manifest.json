@@ -48,5 +48,10 @@
  "clickup-ai": true,
  "intercom": true,
  "gong": true,
- "asana-ai": true
+ "asana-ai": true,
+ "synthid-detector": true,
+ "irisgo": true,
+ "underdog": true,
+ "openpilot": true,
+ "openbot": true
 }
