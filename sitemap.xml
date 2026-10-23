@@ -30,6 +30,7 @@
   <url><loc>https://grabaitool.com/quiz.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/terms.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tools.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/tools/1password-for-agents.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/adcreative-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/adobe-firefly.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/amazon-bee-frontier.html</loc><priority>0.8</priority></url>
@@ -105,6 +106,7 @@
   <url><loc>https://grabaitool.com/tools/resemble-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/runway.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/shufti-ai-suite.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/sloosh-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/speechify.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/spotscribe.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/stable-diffusion.html</loc><priority>0.8</priority></url>
