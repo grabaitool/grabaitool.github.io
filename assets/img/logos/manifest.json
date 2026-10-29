@@ -53,5 +53,7 @@
  "irisgo": true,
  "underdog": true,
  "openpilot": true,
- "openbot": true
+ "openbot": true,
+ "meigen-ai": true,
+ "easemate-ai": true
 }
