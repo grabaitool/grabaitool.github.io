@@ -6,10 +6,40 @@
   <url><loc>https://grabaitool.com/ai-cost-calculator/</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/alternatives.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/alternatives/canva.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/capcut.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/alternatives/chatgpt.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/claude.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/copy-ai.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/cursor.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/dageno.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/dall-e.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/descript.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/alternatives/elevenlabs.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/fireflies.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/gamma.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/gemini.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/github-copilot.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/grammarly.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/heygen.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/ideogram.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/invideo.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/alternatives/kling-ai.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/leonardo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/luma.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/alternatives/midjourney.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/murf.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/notion-ai.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/opus-clip.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/otter.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/perplexity.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/pictory.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/quillbot.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/runway.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/stable-diffusion.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/suno.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/synthesia.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/udio.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/alternatives/veed.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/categories.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/categories/ai-audio-tools.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/categories/ai-business-tools.html</loc><priority>0.8</priority></url>
@@ -22,15 +52,25 @@
   <url><loc>https://grabaitool.com/categories/ai-video-tools.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/categories/ai-writing-tools.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/compare.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/chatgpt-vs-claude.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/chatgpt-vs-gemini.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/cursor-vs-github-copilot.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/midjourney-vs-dalle-3.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/runway-vs-kling.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/compare/suno-vs-udio.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/comparisons.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/contact.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/disclaimer.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/free-ai-tools.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/ai-tool-pricing-guide.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/guides/best-ai-headshot-generators.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/guides/best-ai-resume-builders.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/best-free-ai-detectors.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/better-ai-prompts.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/dageno-alternatives.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/free-ai-image-generators-no-sign-up.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/guides/free-ai-video-generators-no-sign-up.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/free-vs-paid-ai-tools.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/how-to-choose-ai-tool.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/guides/small-business-ai-uses.html</loc><priority>0.6</priority></url>
@@ -42,6 +82,9 @@
   <url><loc>https://grabaitool.com/quiz.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tasks.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tasks/ai-avatars-and-presenters.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/tasks/ai-product-photo-generators.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/tasks/ai-tools-for-teachers.html</loc><priority>0.6</priority></url>
+  <url><loc>https://grabaitool.com/tasks/ai-tools-for-youtube-creators.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tasks/analyze-data.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tasks/automate-workflows-and-agents.html</loc><priority>0.6</priority></url>
   <url><loc>https://grabaitool.com/tasks/build-apps-and-websites.html</loc><priority>0.6</priority></url>
@@ -86,6 +129,7 @@
   <url><loc>https://grabaitool.com/tools/animoto.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/anytype.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/anyword.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/aragon-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/artbreeder.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/asana-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/askcodi.html</loc><priority>0.8</priority></url>
@@ -184,7 +228,9 @@
   <url><loc>https://grabaitool.com/tools/designs-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/dessa.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/devin.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/dreamina.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/dreamstudio.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/dreamwave.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/drift.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/dubverse.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/duck-ai.html</loc><priority>0.8</priority></url>
@@ -210,6 +256,7 @@
   <url><loc>https://grabaitool.com/tools/filmora.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/fineshare-finevoice.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/fireflies-ai.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/fish-audio.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/flair-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/fleeep.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/flexclip.html</loc><priority>0.8</priority></url>
@@ -234,9 +281,11 @@
   <url><loc>https://grabaitool.com/tools/github-copilot.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/gitlab-duo.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/glean.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/gling.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/gocharlie.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/gong.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/google-ai-studio.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/google-antigravity.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/google-deep-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/google-imagen.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/google-playground.html</loc><priority>0.8</priority></url>
@@ -257,6 +306,7 @@
   <url><loc>https://grabaitool.com/tools/haiper-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/hark-pro.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/harmony.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/headshotpro.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/hedra.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/help-scout-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/hemingway-editor.html</loc><priority>0.8</priority></url>
@@ -301,6 +351,7 @@
   <url><loc>https://grabaitool.com/tools/katteb.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/khanmigo.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/khroma.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/kickresume.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/kimi-k3-1-pro.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/kimi.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/kino.html</loc><priority>0.8</priority></url>
@@ -377,6 +428,7 @@
   <url><loc>https://grabaitool.com/tools/motion.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/moveworks.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/mubert.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/mureka.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/murf.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/muse-wonder.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/musicfy.html</loc><priority>0.8</priority></url>
@@ -474,6 +526,7 @@
   <url><loc>https://grabaitool.com/tools/respeecher.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/reve.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/revealbot.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/rezi.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/riverside.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/rocketium.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/routine.html</loc><priority>0.8</priority></url>
@@ -490,6 +543,7 @@
   <url><loc>https://grabaitool.com/tools/scite.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/scrintal.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/seaart.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/seedance.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/selljam-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/sembly-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/semrush-ai.html</loc><priority>0.8</priority></url>
@@ -545,6 +599,7 @@
   <url><loc>https://grabaitool.com/tools/tasklet.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/tavus.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/tbc-mischief-1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/teal.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/teleporthq.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/tempo-labs.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/tensor-art.html</loc><priority>0.8</priority></url>
@@ -555,6 +610,7 @@
   <url><loc>https://grabaitool.com/tools/tldv.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/tobira-site-agent.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/toolbaz.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/topaz-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/topmediai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/trae.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/trevor-ai.html</loc><priority>0.8</priority></url>
@@ -583,6 +639,7 @@
   <url><loc>https://grabaitool.com/tools/voicemod.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/void-editor.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/wabi.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/wan.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/warmy-adeline.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/wavtool.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/webflow-ai.html</loc><priority>0.8</priority></url>
