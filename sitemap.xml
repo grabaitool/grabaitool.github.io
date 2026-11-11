@@ -122,6 +122,7 @@
   <url><loc>https://grabaitool.com/tools/aiva.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/akiflow.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/akkio.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/alsona.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/altered.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/amazon-bee-frontier.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/amazon-q-developer.html</loc><priority>0.8</priority></url>
@@ -386,6 +387,7 @@
   <url><loc>https://grabaitool.com/tools/local-code.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/longshot-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/looka.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/lottie-ai.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/loudly.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/lovable.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/ltx-studio.html</loc><priority>0.8</priority></url>
@@ -675,5 +677,6 @@
   <url><loc>https://grabaitool.com/tools/zenochat.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/zerogpt.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/tools/zoho-zia.html</loc><priority>0.8</priority></url>
+  <url><loc>https://grabaitool.com/tools/zus.html</loc><priority>0.8</priority></url>
   <url><loc>https://grabaitool.com/top-rated.html</loc><priority>0.6</priority></url>
 </urlset>
