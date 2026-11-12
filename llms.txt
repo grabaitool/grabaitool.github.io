@@ -1,6 +1,6 @@
 # Grab AI Tool
 
-> Grab AI Tool tracks, tests, and rates the best AI tools for writing, images, video, audio, code, design, marketing, and business — with honest, hands-on ratings so you can choose with confidence.
+> Grab AI Tool tracks, tests, and rates the best AI tools for writing, images, video, audio, code, design, marketing, and business — with honest, independently researched ratings so you can choose with confidence.
 
 Grab AI Tool is an independent AI tools directory at https://grabaitool.com/. It lists 572 expert-reviewed tools across 10 categories, with pricing, features, pros and cons, and editorial ratings. Free to browse; no account required.
 
@@ -64,7 +64,7 @@ Grab AI Tool is an independent AI tools directory at https://grabaitool.com/. It
 
 ## How we rate
 
-Every tool is scored 1–5 on ease of use, feature depth, value for money, and output quality. Scores reflect editors' independent judgment at the time of review, based on official documentation, pricing pages, and hands-on research. We revisit popular tools regularly. Prices shown are approximate — always verify on the official site.
+Every tool is scored 1–5 on ease of use, feature depth, value for money, and output quality. Scores reflect editors' independent judgment at the time of review, based on official documentation, pricing pages, and in-depth independent research. We revisit popular tools regularly. Prices shown are approximate — always verify on the official site.
 
 ## Optional
 
