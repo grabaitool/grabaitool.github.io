@@ -72,9 +72,99 @@
     );
   }
 
+  /* ---------- explorer, DOM mode: server-rendered cards + Load more ----------
+     Used where the grid carries data-lm (the homepage): every card is already
+     in the HTML (SEO); this only paginates ("Load more", PAGE at a time),
+     filters (search text, pricing pills, category chips) and re-sorts the
+     existing DOM nodes. Nothing is fetched or re-rendered from data. */
+  function initExplorerDOM(root, grid) {
+    var cards = Array.prototype.slice.call(grid.querySelectorAll(".tool-card"));
+    var q = document.getElementById("explorer-q");
+    var sortSel = document.getElementById("explorer-sort");
+    var count = document.getElementById("explorer-count");
+    var pills = document.querySelectorAll("#explorer-filters button");
+    var chips = document.querySelectorAll("#explorer-cats button");
+    var moreBtn = document.getElementById("load-more");
+    var doneEl = document.getElementById("lm-done");
+    var PAGE = parseInt(grid.getAttribute("data-lm"), 10) || 48;
+    var model = "All", cat = "All", shown = PAGE;
+
+    function matches(card) {
+      if (model !== "All" && card.getAttribute("data-model") !== model) return false;
+      if (cat !== "All" && card.getAttribute("data-cat") !== cat) return false;
+      var query = (q.value || "").trim().toLowerCase();
+      if (!query) return true;
+      if (!card.__hay) card.__hay = card.textContent.toLowerCase();
+      var h = card.__hay;
+      return query.split(/\s+/).every(function (w) { return h.indexOf(w) !== -1; });
+    }
+
+    function apply() {
+      var matched = cards.filter(matches);
+      var inSet = new Set(matched);
+      cards.forEach(function (card) { if (!inSet.has(card)) card.classList.add("lm-off"); });
+      matched.forEach(function (card, i) { card.classList.toggle("lm-off", i >= shown); });
+      var vis = Math.min(shown, matched.length);
+      count.textContent = "Showing " + vis + " of " + matched.length +
+        (matched.length === 1 ? " tool" : " tools");
+      if (moreBtn) {
+        var more = matched.length - vis;
+        moreBtn.style.display = more > 0 ? "" : "none";
+        if (more > 0) moreBtn.textContent = "Load more tools (" + more + " more)";
+      }
+      if (doneEl) {
+        var done = matched.length > PAGE && vis >= matched.length;
+        doneEl.style.display = done ? "" : "none";
+        if (done) doneEl.textContent = "All " + matched.length + " tools shown";
+      }
+    }
+
+    function reset() { shown = PAGE; apply(); }
+
+    function resort() {
+      var sort = sortSel.value;
+      var arr = cards.slice();
+      if (sort === "rating") arr.sort(function (a, b) {
+        return parseFloat(b.getAttribute("data-rating")) - parseFloat(a.getAttribute("data-rating")); });
+      else if (sort === "name") arr.sort(function (a, b) {
+        return a.getAttribute("data-name").localeCompare(b.getAttribute("data-name")); });
+      else arr.sort(function (a, b) {
+        return parseInt(b.getAttribute("data-pop"), 10) - parseInt(a.getAttribute("data-pop"), 10); });
+      arr.forEach(function (card) { grid.appendChild(card); });
+      cards = arr;
+    }
+
+    pills.forEach(function (b) {
+      b.addEventListener("click", function () {
+        pills.forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+        model = b.getAttribute("data-model");
+        reset();
+      });
+    });
+    chips.forEach(function (b) {
+      b.addEventListener("click", function () {
+        chips.forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+        cat = b.getAttribute("data-cat");
+        reset();
+      });
+    });
+    q.addEventListener("input", reset);
+    sortSel.addEventListener("change", function () { resort(); reset(); });
+    if (moreBtn) moreBtn.addEventListener("click", function () { shown += PAGE; apply(); });
+
+    // expose so hero search can drive it
+    window.__tpExplorer = {
+      setQuery: function (v) { q.value = v; reset(); }
+    };
+    apply();
+  }
+
   /* ---------- explorer: search + filter + sort (homepage) ---------- */
   function initExplorer(root) {
     var grid = document.getElementById("explorer-grid");
+    if (grid && grid.hasAttribute("data-lm")) { initExplorerDOM(root, grid); return; }
     if (!grid || !DB()) return;
     var q = document.getElementById("explorer-q");
     var sortSel = document.getElementById("explorer-sort");

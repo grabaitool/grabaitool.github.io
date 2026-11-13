@@ -122,6 +122,10 @@ section{padding:56px 0}
 .filter-pills button{border:1.5px solid var(--line);background:#fff;border-radius:var(--pill);padding:9px 18px;font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink)}
 .filter-pills button.active{background:var(--blue-600);border-color:var(--blue-600);color:#fff}
 .results-count{font-size:14px;color:var(--muted);margin:6px 0 18px}
+.cat-chips{flex-wrap:wrap;margin-bottom:4px}
+.tool-card.lm-off{display:none}
+.lm-wrap{text-align:center;margin:28px 0 8px}
+.lm-done{font-size:14.5px;font-weight:600;color:var(--muted);margin:0}
 
 /* ---------- newsletter ---------- */
 .newsletter-panel{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#3b82f6);border-radius:28px;padding:60px 40px;text-align:center;color:#fff}
