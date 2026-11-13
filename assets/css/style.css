@@ -730,3 +730,9 @@ body.calc-bar-on{padding-bottom:92px}
 .verified-line{font-size:13px;color:var(--muted);margin:8px 0 0}
 .ms-rank{position:relative}
 .ms-num{position:absolute;top:-10px;left:-6px;z-index:2;background:#2563eb;color:#fff;font-weight:700;font-size:13px;min-width:26px;height:26px;border-radius:999px;display:flex;align-items:center;justify-content:center;padding:0 6px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+
+/* ---------- UX polish 2026-11-13: card action rows wrap as a unit;
+   the CTA label itself never breaks mid-button (was: "Try it Free" /
+   arrow dangling on a second line inside the pill, site-wide) ---------- */
+.tc-actions{flex-wrap:wrap;row-gap:10px}
+.tool-card .btn{white-space:nowrap}
